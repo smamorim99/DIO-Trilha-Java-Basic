@@ -1,15 +1,35 @@
+
+
+import java.util.Locale;
+import java.util.Scanner;
 public class ContaTerminal {
-    public static void main(String[] args) throws Exception {
-        String nomeCliente =  args [0];
-        String sobrenomeCliente = args [1];
-        int numeroDaConta = Integer.valueOf (args [2]);
-        String agencia = args [3];
-        double saldo = Double.valueOf(args [4]);
+    public static void main(String[] args) {
+                
+        Scanner scanner = new Scanner (System.in).useLocale(Locale.US);
+                System.out.println("Digite seu nome: ");
+                 String nomeCliente = scanner.next();
+                
+                System.out.println("Digite seu sobrenome: ");
+                 String sobrenomeCliente = scanner.next();
 
-        System.out.println("Meu nome é " + nomeCliente + " " + sobrenomeCliente);
-        System.out.println("Informe o número da conta: " + numeroDaConta);
-        System.out.println("Infome a sua Agencia: " + agencia);
-        System.out.println("Saldo disponivel: " + saldo);
+                System.out.println("Informe o numero da sua conta: ");
+                 int numeroDaConta = scanner.nextInt();
 
-    }
+                System.out.println("Irfome o numero da sua agencia: ");
+                 String agencia = scanner.next();
+                 scanner.close();
+            double saldo = Double.valueOf (args[0]);
+                  
+            System.out.println("Olá " + nomeCliente + " " + sobrenomeCliente + " " 
+            + "obrigado por criar uma conta em nosso banco, sua agencia é " 
+            + agencia + ", " + "conta numero " 
+            + numeroDaConta + " " + "e seu saldo já se encontra disponivel para saque." );
+            
+            System.out.println("Saldo disponivel: " + saldo  );
+            
+        
+
+        
+    } 
+        
 }
