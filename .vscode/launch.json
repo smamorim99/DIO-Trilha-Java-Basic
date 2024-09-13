@@ -4,8 +4,6 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
-
         {
             "type": "java",
             "name": "Current File",
@@ -17,8 +15,14 @@
             "name": "ContaTerminal",
             "request": "launch",
             "mainClass": "ContaTerminal",
-            "args": ["2666.00"]
-                 
+            "args": ["266.0"]
+        },
+        {
+            "type": "java",
+            "name": "InnerContaTerminal",
+            "request": "launch",
+            "mainClass": "InnerContaTerminal",
+            "args": "266.0"
         }
     ]
 }

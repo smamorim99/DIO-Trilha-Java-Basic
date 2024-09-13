@@ -18,14 +18,16 @@ public class ContaTerminal {
                 System.out.println("Irfome o numero da sua agencia: ");
                  String agencia = scanner.next();
                  scanner.close();
-            double saldo = Double.valueOf (args[0]);
+            double saldo =  Double.valueOf (args[0]);
                   
             System.out.println("Olá " + nomeCliente + " " + sobrenomeCliente + " " 
             + "obrigado por criar uma conta em nosso banco, sua agencia é " 
             + agencia + ", " + "conta numero " 
             + numeroDaConta + " " + "e seu saldo já se encontra disponivel para saque." );
             
-            System.out.println("Saldo disponivel: " + saldo  );
+            System.out.println("Saldo disponivel: " + saldo );
+    
+    
             
         
 
