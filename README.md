@@ -1,1 +1,1 @@
-Objetivo da atividade: Desenvolver um programa que simulasse um conta bancaria para reforçar os conteudos do curso de Java Sintaxe
+aulas do curso java basico da DIO; exercicios, desafios, e exemplos.
