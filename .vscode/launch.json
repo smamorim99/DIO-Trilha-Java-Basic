@@ -15,14 +15,14 @@
             "name": "ContaTerminal",
             "request": "launch",
             "mainClass": "ContaTerminal",
-            "args": ["266.0"]
+            "args": ["266.00"],
         },
         {
             "type": "java",
             "name": "InnerContaTerminal",
             "request": "launch",
             "mainClass": "InnerContaTerminal",
-            "args": "266.0"
+            "args": ["266.00"]
         }
     ]
 }
