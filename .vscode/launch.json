@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TryCatch",
+            "request": "launch",
+            "mainClass": "TryCatch",
+            "projectName": "DIO-trilha-java-basic_dfa86344"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,14 +22,18 @@
             "name": "ContaTerminal",
             "request": "launch",
             "mainClass": "ContaTerminal",
-            "args": ["266.00"],
+            "args": [
+                "266.00"
+            ]
         },
         {
             "type": "java",
             "name": "InnerContaTerminal",
             "request": "launch",
             "mainClass": "InnerContaTerminal",
-            "args": ["266.00"]
+            "args": [
+                "266.00"
+            ]
         }
     ]
 }
