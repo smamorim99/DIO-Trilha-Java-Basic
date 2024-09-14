@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadorDeCep",
+            "request": "launch",
+            "mainClass": "FormatadorDeCep",
+            "projectName": "DIO-trilha-java-basic_dfa86344"
+        },
+        {
+            "type": "java",
+            "name": "CepInvalidoException",
+            "request": "launch",
+            "mainClass": "CepInvalidoException",
+            "projectName": "DIO-trilha-java-basic_dfa86344"
+        },
+        {
+            "type": "java",
+            "name": "ExDeExcecoes",
+            "request": "launch",
+            "mainClass": "ExDeExcecoes",
+            "projectName": "DIO-trilha-java-basic_dfa86344"
+        },
+        {
+            "type": "java",
             "name": "TryCatch",
             "request": "launch",
             "mainClass": "TryCatch",
