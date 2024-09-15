@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex",
+            "request": "launch",
+            "mainClass": "Debugging.Ex",
+            "projectName": "DIO-trilha-java-basic_dfa86344"
+        },
+        {
+            "type": "java",
+            "name": "Exemplo1",
+            "request": "launch",
+            "mainClass": "Exemplo1",
+            "projectName": "DIO-trilha-java-basic_dfa86344"
+        },
+        {
+            "type": "java",
             "name": "FormatadorDeCep",
             "request": "launch",
             "mainClass": "FormatadorDeCep",
